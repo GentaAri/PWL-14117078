@@ -1,0 +1,15 @@
+<html>
+<head>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+	<div class="cont">
+	{%include "header.njk" %}	
+    {%include "navigasi.njk" %}
+    <div class="content">
+        {{content | safe}}
+    </div>
+    {%include "footer.njk" %}
+    </div>
+</body>
+</html>

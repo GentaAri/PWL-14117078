@@ -1,0 +1,19 @@
+<html>
+<head>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+	<div class="cont">
+	{%include "header.njk" %}	
+    {%include "navigasi.njk" %}
+    <div class="content">
+        {{content | safe}}
+        <img src="/assets/img/1.jpg" alt="1" width="600" height="400">
+        <img src="/assets/img/2.jpg" alt="2" width="600" height="400">
+        <img src="/assets/img/3.jpg" alt="3" width="600" height="400" >
+        <img src="/assets/img/4.jpg" alt="1" width="600" height="400">
+    </div>
+    {%include "footer.njk" %}
+    </div>
+</body>
+</html>
