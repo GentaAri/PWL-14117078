@@ -8,10 +8,7 @@ body {
     width: 800px;
     margin: auto;
     background-color: #fff;
-
 }
-
-
 /*header*/
 header {
     padding: 20px;
@@ -27,12 +24,10 @@ header .judul {
 }
 /* Navigasi */
 nav{
-    display: flex;
     border-bottom : 2px solid salmon;
     border-top: 2px solid lightskyblue;
 }
 nav ul li {
-    flex:1;
     display: inline-block;
     margin-top: 2px;
     margin-right: 2px;
@@ -53,7 +48,6 @@ nav a:hover {
     padding: 10px;
 }
 
-
 img {
     padding: 5px;
     max-width: 100%;
@@ -69,36 +63,5 @@ img {
     color: #cacaca;
     text-align: center;
     font-size: 12px;
-
-}
-
-
-body{
-    background-color: #eee;
-    color: #222;
-}
-
-
-@media screen and (max-width: 760px){
-    .cont{
-        width: 100%;
-    }
-
-    .content {
-        flex-direction: column;
-        margin-right: auto;
-        margin-left: auto;
-        width: 70%;
-    }
-
-}
-
-.modeMalam {
-    background-color: #2e2e2d;
-}
-
-.modeMalam > div{
-    background-color: #4f4f4d;
-    color: white;
 
 }
