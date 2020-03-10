@@ -3,7 +3,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body>
+<body id="id" onload="mode()">
 	<div class="cont">
 	<header>
 		<div class="judul"> 
@@ -30,9 +30,22 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     </div>
+
     <div class="footer">
 			<p class="copy">Copyright 2020. GentaAri</p>
 </div>
     </div>
+
+    <script>
+        jam = new Date().getHours();
+        menit = new Date().getMinutes();
+
+        function mode(){
+            if((jam >= 18) && (menit > 00)){
+                document.getElementById('id').className = "modeMalam";
+            }
+        }
+
+    </script>
 </body>
 </html>
