@@ -8,10 +8,7 @@ body {
     width: 800px;
     margin: auto;
     background-color: #fff;
-
 }
-
-
 /*header*/
 header {
     padding: 20px;
@@ -53,7 +50,6 @@ nav a:hover {
     padding: 10px;
 }
 
-
 img {
     padding: 5px;
     max-width: 100%;
@@ -72,13 +68,6 @@ img {
 
 }
 
-
-body{
-    background-color: #eee;
-    color: #222;
-}
-
-
 @media screen and (max-width: 760px){
     .cont{
         width: 100%;
@@ -90,15 +79,5 @@ body{
         margin-left: auto;
         width: 70%;
     }
-
-}
-
-.modeMalam {
-    background-color: #2e2e2d;
-}
-
-.modeMalam > div{
-    background-color: #4f4f4d;
-    color: white;
 
 }

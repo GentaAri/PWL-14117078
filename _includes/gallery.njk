@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body id="id" onload="mode()">
+<body>
 	<div class="cont">
 	{%include "header.njk" %}	
     {%include "navigasi.njk" %}
@@ -11,21 +11,10 @@
         {{content | safe}}
         <img src="/assets/img/1.jpg" alt="1" width="600" height="400">
         <img src="/assets/img/2.jpg" alt="2" width="600" height="400">
+        <img src="/assets/img/3.jpg" alt="3" width="600" height="400" >
+        <img src="/assets/img/4.jpg" alt="1" width="600" height="400">
     </div>
     {%include "footer.njk" %}
     </div>
-
-
-    <script>
-        jam = new Date().getHours();
-        menit = new Date().getMinutes();
-
-        function mode(){
-            if((jam >= 18) && (menit > 00)){
-                document.getElementById('id').className = "modeMalam";
-            }
-        }
-
-    </script>
 </body>
 </html>
